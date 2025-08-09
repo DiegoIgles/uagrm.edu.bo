@@ -11,7 +11,7 @@ function Historico() {
       return;
     }
 
-    fetch(`https://localhost:8000/api/estudiantes/${estudianteId}/historial`)
+    fetch(`https://uagrm.bo.cisistemasficct.com/api/estudiantes/${estudianteId}/historial`)
       .then(res => {
         if (!res.ok) throw new Error('Error en la respuesta del servidor');
         return res.json();
