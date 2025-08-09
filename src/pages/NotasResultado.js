@@ -21,7 +21,7 @@ export default function NotasResultado() {
       try {
         const { semestre, anio, estudianteId } = JSON.parse(last);
         const res = await fetch(
-          `http://uagrm.bo.cisistemasficct.com/api/estudiantes/${estudianteId || 8}/notas-por-periodo`,
+          `https://uagrm.bo.cisistemasficct.com/api/estudiantes/${estudianteId || 8}/notas-por-periodo`,
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },

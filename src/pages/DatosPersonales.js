@@ -9,7 +9,7 @@ function DatosPersonales() {
     const fetchEstudiante = async () => {
       const id = localStorage.getItem('estudianteId');
       try {
-        const res = await fetch('http://uagrm.bo.cisistemasficct.com/api/estudiantes');
+        const res = await fetch('https://uagrm.bo.cisistemasficct.com/api/estudiantes');
         const data = await res.json();
         const estudianteFiltrado = data.find((e) => e.id === parseInt(id));
         if (estudianteFiltrado) {

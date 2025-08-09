@@ -6,7 +6,7 @@ function BoletaInscripcion() {
 
   useEffect(() => {
     const idEstudiante = localStorage.getItem('estudianteId');
-    fetch(`http://uagrm.bo.cisistemasficct.com/api/estudiantes/${idEstudiante}/boleta`)
+    fetch(`https://uagrm.bo.cisistemasficct.com/api/estudiantes/${idEstudiante}/boleta`)
       .then(res => res.json())
       .then(data => setBoleta(data))
       .catch(err => console.error('Error al obtener la boleta:', err));

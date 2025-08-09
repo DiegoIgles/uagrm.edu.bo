@@ -12,7 +12,7 @@ function AvanceAcademico() {
       return;
     }
 
-    fetch(`http://uagrm.bo.cisistemasficct.com/api/estudiantes/${estudianteId}/avance-academico`)
+    fetch(`https://uagrm.bo.cisistemasficct.com/api/estudiantes/${estudianteId}/avance-academico`)
       .then(res => res.json())
       .then(setData)
       .catch(err => console.error(err));
