@@ -1,0 +1,90 @@
+/* src/pages/AvanceAcademico.css */
+.vista-avance-academico .avance-academico-container {
+  background-color: #fff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  
+}
+
+.vista-avance-academico .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.vista-avance-academico .header h2 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.vista-avance-academico .btn-imprimir {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vista-avance-academico .btn-imprimir i {
+  margin-right: 6px;
+}
+
+.vista-avance-academico .info-estudiante {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.vista-avance-academico .info-estudiante h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #222;
+}
+
+.vista-avance-academico .ppac-box {
+  text-align: right;
+}
+
+.vista-avance-academico .ppac-box h2 {
+  color: #1e73be;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.vista-avance-academico .ppac-box p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.vista-avance-academico .tabla-notas {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  margin-top: 0px;
+}
+
+.vista-avance-academico .tabla-notas thead th {
+  background-color: #efefef;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.vista-avance-academico .tabla-notas tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+
+.vista-avance-academico .tabla-notas tbody td:last-child {
+  background-color: #dedede;
+  text-align: center;
+  font-size: 18px;
+}

@@ -1,0 +1,52 @@
+.datos-personales-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 0px;
+}
+
+.datos-personales-container h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0px;
+}
+
+.datos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.campo label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.valor {
+  background-color: #f2f4f7;
+  padding: 12px 14px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+   border: 1px solid #ccc;
+}
+
+.foto-container {
+  margin-top: 20px;
+}
+
+.foto-estudiante {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 8px;
+  border: 2px solid #ccc;
+  padding: 4px;
+}
+
+.foto-no-disponible {
+  margin-top: 20px;
+  font-weight: 500;
+}

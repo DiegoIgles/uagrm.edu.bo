@@ -1,0 +1,92 @@
+.historico-container {
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  margin-top: 0px;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  
+}
+.header h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-weight: 600;
+  
+}
+
+.btn-imprimir {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.info-estudiante {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.info-estudiante h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.ppac-box h2 {
+ margin-top: 10px;
+  text-align: right;
+  font-size: 35px;
+  color: rgb(57, 137, 198);
+}
+
+.tabla-notas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: rgb(238, 238, 238);
+  font-size: 15px;
+}
+
+.tabla-notas th, .tabla-notas td {
+  border: 1px solid #ffffff;
+  padding: 20px;
+  
+}
+
+.tabla-notas th {
+  background-color: rgb(238, 238, 238);
+  font-weight: normal; /* 👈 Esto quita la negrita */
+  text-align: left;
+
+}
+
+.nota-verde {
+  background-color: #43a047;
+  color: white;
+  text-align: right;
+  font-size: 18px;
+}
+
+.nota-roja {
+  background-color: #e53935;
+  color: white;
+  text-align: right;
+    font-size: 18px;
+
+}

@@ -1,0 +1,86 @@
+.home-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 490px;
+  margin-bottom: 30px;
+}
+
+.titulo {
+  color: #C02428;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  color: #005f8c;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.tipos-container {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  margin-bottom: 60px;
+}
+
+.cuenta-card {
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* importante para que el degradado no se desborde */
+}
+
+.cuenta-card img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+}
+
+.cuenta-card.hovered {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(to bottom, #0070cc, #005199);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  border-top: 1px solid #004080;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.links a {
+  display: inline-block;
+  color: #0070cc;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
