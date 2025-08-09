@@ -27,7 +27,7 @@ function NotasSemestrales({ defaultSemestre = "", defaultAnio = "" }) {
 
     try {
       const res = await fetch(
-        `http://uagrm.bo.cisistemasficct.com/api/estudiantes/${estudianteId}/notas-por-periodo`,
+        `https://uagrm.bo.cisistemasficct.com/api/estudiantes/${estudianteId}/notas-por-periodo`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

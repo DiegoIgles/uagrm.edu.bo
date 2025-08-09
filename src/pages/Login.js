@@ -14,7 +14,7 @@ function Login() {
     setError('');
 
     try {
-      const response = await fetch('http://uagrm.bo.cisistemasficct.com/api/login-estudiante', {
+      const response = await fetch('https://uagrm.bo.cisistemasficct.com/api/login-estudiante', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ registro, ci }),
